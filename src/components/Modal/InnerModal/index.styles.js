@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-//naming is based on where it is used, small is for phone size, where the modal should take up most of the screen
+
 const InnerModalSmall = styled.div`
   z-index: -1;
   width: 80%;

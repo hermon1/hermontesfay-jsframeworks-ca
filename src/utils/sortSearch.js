@@ -1,8 +1,4 @@
-/**
- *
- * @param {array} results  the results of the search
- * @returns an sorted array of products based on the search term
- */
+
 function sortSearch(results, searchTerm) {
     const sortedSearch = [...results].sort((productA, productB) => {
       const productATitle = productA.title.toLowerCase();

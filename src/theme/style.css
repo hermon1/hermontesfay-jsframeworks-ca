@@ -1,31 +1,31 @@
-/*importing Roboto font for all text*/
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
-/*reomve some padding and margin*/
+
 body{
     margin: 0px;
     padding: 0px;
 }
-/*using the same font and tolor for all text*/
+
 h1,h2,h3,p, a, button, input, label, select, textarea, .defaultLink, .defaultText{
     font-family: 'Roboto', sans-serif;
     color: #464343;
     text-decoration: none;
 
 }
-/*buttons */
+
 .addToCart{
     grid-area: button;
     margin: 0 0 0 auto;
 }
-/*custom for back button*/
+
 .back{
     margin: 20px auto 20px auto;
     display: block;
     width: 75px;
   }
 
-/*global error border */
+
 .error{
     border-color: #DD5f57 !important;
 }

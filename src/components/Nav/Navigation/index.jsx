@@ -3,11 +3,7 @@ import { Link } from 'react-router-dom'
 import { NavModalContext } from '../../../context/NavModal';
 import { NavSection, ModalNavSection } from './index.styles'
 import "../../../theme/style.css";
-/**
- * 
- * @param {object} props the modal state (modal) 
- * @returns the nav content, based on the state
- */
+
 const Navigation = ({modal}) => {
   const {setModalStatus} = useContext(NavModalContext);
   return (

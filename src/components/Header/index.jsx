@@ -3,15 +3,12 @@ import { InnerHeader, Logo } from './index.styles'
 import Nav from '../Nav'
 import CartHeader from '../Cart/CartHeader'
 import { Link } from 'react-router-dom'
-/**
- * 
- * @returns the global header navigation, logo and cart icon
- */
+
 const Header = () => {
   return (
     <InnerHeader>
         <Nav/>
-        <Logo><Link className='defaultLink' to="/">Shop'n go</Link></Logo>
+        <Logo><Link className='defaultLink' to="/">Quick Shop</Link></Logo>
         <CartHeader/>
     </InnerHeader>
   )

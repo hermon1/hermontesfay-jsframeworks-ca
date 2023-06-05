@@ -1,8 +1,4 @@
-/**
- *
- * @param {array} product an array of all the products
- * @returns an filtered array of products based on the search term (this)
- */
+
 
 function searchFilter(product) {
     let { title } = product;

@@ -8,10 +8,7 @@ import { removeAllProducts } from '../../store/cartSlice/cartSlice'
 import Button from '../../components/Button';
 import Back from '../../components/Button/Back';
 import { Link } from 'react-router-dom';
-/**
- * @description shows all items in cart or an message based on if there is items in cart, a button to remove everything from cart, a total reducer to display price, a go back button to redirect to last page
- * @returns the cart page Component
- */
+
 const Cart = () => {
   const dispatch = useDispatch()
   const cart = useSelector(state=>state.cart.cart);

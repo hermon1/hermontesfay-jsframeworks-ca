@@ -2,10 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Button from '../../components/Button'
 import { UnknownPage } from './index.styles'
-/**
- * 
- * @returns basic could not find page text
- */
+
 const NotFound = () => {
   return (
     <UnknownPage>

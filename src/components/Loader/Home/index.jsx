@@ -4,10 +4,7 @@ import { ProductCard, ImageSection, LowerCard } from '../../Products/Product/ind
 import { Skeleton } from '@mui/material';
 import { Link } from 'react-router-dom'
 import Button from '../../Button'
-/**
- * 
- * @returns a Product card, but with placeholders/skeleton for loading state
- */
+
 const HomeLoader = () => {
 return(<ProductCard>
     <ImageSection>

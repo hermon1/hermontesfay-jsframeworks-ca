@@ -20,10 +20,7 @@ const SearchBar = () => {
     hideResult,
     clicked,
     searchResultRef} = useSearch(dataToDisplay, location);
- /*
-  * Shows the search bar, if it is focused and there are results to show it will show the results.
-  * to show the results it will use the SearchResult component with a map
-  */
+
 
   return (
     <InnerSearchBar>

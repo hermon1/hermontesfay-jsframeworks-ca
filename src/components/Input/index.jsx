@@ -1,12 +1,7 @@
 import React from 'react'
 import ErrorResponse from '../ErrorResponse'
 import { Input, TextArea, InnerInput } from './index.styles'
-/**
- * 
- * @param {object} props all needed info about the input field
- * @description creates an component with label, and input or text area. it also adds error styling if needed.
- * @returns input field component
- */
+
 const InputField = ({placeholder, id, hookData, hookFunction, inputType, errors}) => {
   return (
     <InnerInput id={id}>

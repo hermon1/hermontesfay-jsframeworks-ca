@@ -1,10 +1,7 @@
 import { Skeleton } from "@mui/material"
 import { ReviewSection, OverallReview, AllReviews } from "../../Reviews/index.styles"
 import RatingSection from "../../Rating"
-/**
- * 
- * @returns the review section, but with placeholders/skeleton for loading state
- */
+
 const ReviewsLoader = () => {
     return (
         <ReviewSection>

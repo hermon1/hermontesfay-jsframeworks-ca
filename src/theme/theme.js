@@ -5,7 +5,7 @@ import styled from "styled-components";
  */
 const theme = createTheme({
   palette: {
-    primary: { main: "#F2D3A8" },
+    primary: { main: "#9ACF8C" },
     secondary: { main: "#EAAA52" },
     info: { main: "#464343" },
     error: { main: "#DD5F57" },

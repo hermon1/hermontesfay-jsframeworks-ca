@@ -11,7 +11,7 @@ const InnerRating = styled.div`
     font-size: 20px;
   }
 `;
-//custom color for outline and filled on rating
+
 const SecondaryColorRating = muiStyled(Rating)(({ theme }) => ({
   "& .MuiRating-iconFilled": {
     color: theme.palette.secondary.main,

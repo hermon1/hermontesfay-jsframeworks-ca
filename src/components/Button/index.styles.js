@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 
 const Button = styled.button`
-    background-color: #EAAA52 ;
+    background-color: #9ACF8C ;
     border-radius: 5px;
-    border: solid 1px #EAAA52;
+    border: solid 1px #9ACF8C;
     padding: 5px 10px;
     box-sizing: border-box;
     :hover{

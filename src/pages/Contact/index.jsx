@@ -5,13 +5,10 @@ import { yupResolver } from '@hookform/resolvers/yup';
 import { ContactMain } from './index.styles';
 import { schema } from '../../utils/schema/contactSchema';
 import Button from '../../components/Button';
-/**
- * @description a contact page with 4 input / text areas, console.log()'s the data if all requirement of shcema is met
- * @returns the contact page
- */
+
 const Contact = () => {
   const {register, handleSubmit, formState:{errors}} = useForm({resolver: yupResolver(schema)})
-  //logging out the  form data
+ 
   const onSubmit = (data) => {console.log(data)}
   return (
     <ContactMain>

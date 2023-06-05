@@ -5,10 +5,7 @@ import Navigation from '../../Nav/Navigation'
 import { InnerModalBig, InnerModalSmall, ModalButton } from './index.styles'
 import ClearIcon from "@mui/icons-material/Clear"
 import { forwardRef } from 'react'
-/**
- * @description this creates an modal with diffrent size based on the screen width, that it gets from the NavModalContext
- * @returns the modal
- */
+
 const InnerModal =forwardRef((props,ref) => {
     const {width, setModalStatus} = useContext(NavModalContext);
   return (

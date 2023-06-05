@@ -1,8 +1,4 @@
-/**
- *
- * @param {array} cart the cart with all products
- * @returns either 0 or the amount of products in the cart
- */
+
 const totalSessionCart = (cart) => {
     if (cart === null) {
       return 0;

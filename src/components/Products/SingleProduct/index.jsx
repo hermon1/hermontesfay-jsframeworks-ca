@@ -5,12 +5,7 @@ import Discount from '../../Discount'
 import { useDispatch } from 'react-redux'
 import { addProduct } from '../../../store/cartSlice/cartSlice'
 import {Snackbar } from '@mui/material'
-/**
- * 
- * @param {object} props all info needed to create the single page product
- * @description creates the product page product, and gives it buttons to add to cart, as well as an response when added
- * @returns single page product component
- */
+
 const SingleProduct = ({imageUrl, title, description, discountedPrice, price, id, onDiscount}) => {
   const [open, setOpen] = useState(false);
   const dispatch = useDispatch();
