@@ -54,6 +54,6 @@ const LowerCart = styled.div`
     }
   }
 `;
-/*just a regular div, but gave it a name. used to add content together*/
+
 const InnerCart = styled.div``;
 export { CartMain, CartItems, Total, LowerCart, InnerCart };

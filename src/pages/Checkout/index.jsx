@@ -30,7 +30,7 @@ const Checkout = () => {
       <CheckoutMessage>
         <p>Thank you for your purchase! We will shortly begin packing your order.</p>
         <p>If you have any questions regarding your order, please contact us via our <Link to="/contact">contact form</Link></p>
-        <p>Hope you have a great day!</p>
+        <p>Have a great day!</p>
       </CheckoutMessage>
       <CheckoutList purchasedItems={checkoutItems}/>
       <Link className='botBtn' to="/"><Button text="Home"/></Link>

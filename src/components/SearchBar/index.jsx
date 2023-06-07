@@ -4,14 +4,12 @@ import { ProductContext } from '../../context/Products'
 import { useLocation } from 'react-router-dom'
 import SearchResult from '../SearchResult'
 import useSearch from '../../hooks/useSearch'
-/**
- * @description creates an input field, when it is focused, when you type, it gives results based on the input, these are clickable and will send you to single product page
- * @returns the search bar with input field and result when on focus
- */
+
+
 const SearchBar = () => {
   const {dataToDisplay} = useContext(ProductContext);
   const location = useLocation();
-  //getting the useSearch hook
+
   const { search,
     updateSearch,
     showResults,
