@@ -1,3 +1,46 @@
+# JavaScript Frameworks CA
+
+
+## Goal
+
+To apply knowledge of React to build an eCom store.
+
+## Description
+
+The homepage has a list of products with a search bar that filters. Clicking on the product takes the user to the to individual page where there are details but also reviews of the product. Its easy to add the product to the cart by clicking the "add to cart button". When you checkout you will be notified that the purchase is complete.
+The contact page with form validation is a simple way to get in touch.
+
+I wanted the ecom store to be appealing to the customer with a simple design. Its easy to navigate and simple for the customer to make a transaction. My focus was to create positive and seamless shopping experience for the customers.
+
+### Frameworks and Libraries
+
+- React
+- Yup and react-hook-form 
+- styled-components
+
+## Hosting Services
+
+-  Netlify
+
+## Installation and Setup
+
+First clone down the project from github.  
+
+Then open the project and run `npm install` in the terminal.  
+
+Next you can run: 
+
+`npm start` 
+
+This will open a webbrowser and run the application in developer mode locally on your computer. Normally the application starts on `port 3000` if it is not already in use - press `Y` to open on another port. This page will reload when you save any changes. You can also see any errors in the terminal and console. 
+
+## Contact
+
+www.linkedin.com/in/hermon-tesfay-92620771
+
+hermon.tesfay@gmail.com
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
